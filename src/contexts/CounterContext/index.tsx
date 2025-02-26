@@ -8,7 +8,7 @@ export const CounterContext = createContext<{
   setCount: () => {},
 });
 
-export const CounterContextProvider = ({
+export const CounterProvider = ({
   children,
 }: {
   children: React.ReactNode;
